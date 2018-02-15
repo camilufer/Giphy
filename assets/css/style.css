@@ -1,0 +1,48 @@
+body{
+	background-color: #00FF32;
+}
+
+.container{
+	width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #00cbff;
+	padding: 4%;
+}
+
+.container img{
+	max-width: 250px;
+	padding: 4px;
+}
+
+#elementos{
+	padding: 2%;
+}
+
+#elementos .elemento{
+	margin: 10px;
+	display: block;
+	padding: 10px;
+	text-align: left;
+	position: relative;
+	margin: 2%;
+}
+
+#elementos .elemento a{
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	padding: 20px;
+	position: absolute;
+	top: 30%;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.btn{
+	background-color: #ff00cd;
+}
+
+.btn:hover{
+	background-color: #fffd00;
+}
